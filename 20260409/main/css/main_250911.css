@@ -1,0 +1,1812 @@
+﻿/*------------------------
+⁞            姚          ⁞
+⁞            姚          ⁞
+------------------------*/
+
+/*---- common ----*/
+@import url("https://ids.iwplay.com.tw/includ/footer/footer.css");
+
+/*---- resetCss ----*/
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font: normal 100% "Microsoft YaHei", \5b8b\4f53, Arial, Helvetica, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: 100%;
+  background: #000;
+
+  overflow-x: hidden;
+}
+
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+textarea,
+table,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+area {
+  outline: none;
+}
+
+img {
+  border: 0;
+  object-fit: cover;
+}
+
+.img-fluid {
+  max-width: initial;
+  width: 100%;
+}
+
+input {
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 0;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.mob {
+  display: none;
+}
+
+.display_none {
+  display: none;
+}
+
+/*---- scrollBar ----*/
+::-webkit-scrollbar {
+  height: 5px;
+  overflow: visible;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d10003;
+  background-clip: padding-box;
+  border: solid transparent;
+  border-width: 0 0 0 0px;
+  min-height: 28px;
+  padding: 100px 0 0;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0), inset 0 -1px 0 rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d10003;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #d10003;
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-track {
+  background-color: #19181e;
+}
+
+/*---- swiperCss ----*/
+.swiper-pagination-bullet:focus,
+.swiper-button-prev:focus,
+.swiper-button-next:focus {
+  outline: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  padding-top: 122.93%;
+  top: 50%;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.swiper-button-prev {
+  left: 10px;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/prev.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+.swiper-button-prev:hover {
+  left: 0px;
+}
+
+.swiper-button-next {
+  right: 10px;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/next.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+.swiper-button-next:hover {
+  right: 0px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+/*---- nav ----*/
+nav {
+  position: absolute;
+  width: 100%;
+  height: 6.88vw;
+  top: 0;
+  left: 0;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/fixed_top.png)
+    no-repeat center top;
+  background-size: cover;
+  z-index: 8;
+}
+
+.content {
+  position: relative;
+  width: 67.89%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 3%;
+  width: 19.85%;
+  left: 6.1%;
+}
+
+.menu {
+  position: absolute;
+}
+
+.menu:after {
+  content: "";
+  position: absolute;
+  padding-top: 111.21%;
+  bottom: 120%;
+  left: 70%;
+  width: 139.67%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/top_nav_on.png)
+    no-repeat left top;
+  background-size: cover;
+  transition: all 0.6s;
+  z-index: -1;
+}
+
+.menu.m1 {
+  margin-top: 1.4%;
+  padding-top: 7.39%;
+  width: 11.62%;
+  left: 27.6%;
+}
+
+.menu.m2 {
+  margin-top: 2.5%;
+  padding-top: 7.77%;
+  width: 11.85%;
+  left: 38.65%;
+}
+
+.menu.m3 {
+  margin-top: 1.1%;
+  padding-top: 7.46%;
+  width: 11.62%;
+  left: 49.55%;
+}
+
+.menu.m4 {
+  margin-top: 1.5%;
+  padding-top: 7.7%;
+  width: 12.62%;
+  left: 60.35%;
+}
+
+.menu.m5 {
+  margin-top: 1.9%;
+  padding-top: 7.7%;
+  width: 11.85%;
+  left: 72.15%;
+}
+
+.menu.m1 span {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/top_n1.png)
+    no-repeat center center;
+  background-size: 88%;
+}
+
+.menu.m2 span {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/top_n2.png)
+    no-repeat center center;
+  background-size: 88%;
+}
+
+.menu.m3 span {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/top_n3.png)
+    no-repeat center center;
+  background-size: 88%;
+}
+
+.menu.m4 span {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/top_n4.png)
+    no-repeat center center;
+  background-size: 88%;
+}
+
+.menu.m5 span {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/top_n5.png)
+    no-repeat center center;
+  background-size: 88%;
+}
+
+.menu:hover:after,
+.menu.on:after {
+  bottom: -15px;
+  left: 0;
+}
+
+.menu span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.6s;
+}
+
+.menu:hover span,
+.menu.on span {
+  transform: rotate(5deg);
+}
+
+.menu_right {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: 4.3%;
+  width: 6.54%;
+  right: 6.05%;
+  z-index: 1;
+}
+
+.menu_share {
+  position: relative;
+  padding-top: 44.7%;
+  width: 43.55%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/menu_share.png)
+    no-repeat 0 0;
+  background-size: cover;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+
+.btn_music {
+  padding-top: 44.7%;
+  width: 44%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/menu_music_on.png)
+    no-repeat center top;
+  background-size: cover;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+
+.menu_share:hover,
+.btn_music:hover {
+  transform: scale(1.1);
+  transform-origin: center bottom;
+}
+
+.btn_music.off {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/nav/menu_music_off.png)
+    no-repeat center top;
+  background-size: cover;
+}
+
+.menu_open {
+  display: none;
+  position: absolute;
+  padding-top: 33%;
+  width: 378.25%;
+  left: -135%;
+}
+
+.menu_share:hover .menu_open {
+  display: block;
+}
+
+.menu_cont {
+  position: relative;
+  width: 100%;
+  background: #000;
+  border-radius: 5px;
+  padding: 7.15% 4.29%;
+  box-sizing: border-box;
+}
+
+.menu_cont:after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  transform: translate(-50%, 0) rotate(45deg);
+  width: 10.41%;
+  height: 10.41%;
+  background: #000;
+}
+
+.follow_us a {
+  position: relative;
+  display: inline-block;
+  margin: 0 6.25%;
+  padding-top: 34.38%;
+  width: 34.38%;
+  opacity: 0.7;
+}
+
+.follow_us a:hover {
+  opacity: 1;
+}
+
+.followUs_fb {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/snslink/followUs_fb.png);
+  background-size: cover;
+}
+
+.followUs_yt {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/snslink/followUs_yt.png);
+  background-size: cover;
+}
+
+.followUs_ds {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/snslink/followUs_ds.png);
+  background-size: cover;
+}
+
+.followUs_societies {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/snslink/followUs_societies.png);
+  background-size: cover;
+}
+
+.followUs_twitter {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/snslink/followUs_twitter.png);
+  background-size: cover;
+}
+
+.followUs_tg {
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/snslink/followUs_tg.png);
+  background-size: cover;
+}
+
+/*---- fixed_bg ----*/
+.fixed_bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 0;
+}
+
+.fixed_bg video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wrap_line {
+  position: relative;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/wrap_line.png)
+    no-repeat center top;
+  background-size: 199.4%;
+  z-index: 2;
+
+  overflow-x: hidden;
+}
+
+/*---- header ----*/
+header {
+  position: relative;
+  height: 57vw;
+}
+
+header .content {
+  position: relative;
+  width: 67.89%;
+  height: 87%;
+  margin: 0 auto;
+  z-index: 1;
+
+  background-color: #61fbe900;
+  /*顏色標記*/
+}
+
+.header_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/header2.png)
+    no-repeat center top;
+  background-size: cover;
+  overflow: hidden;
+  animation-name: hmask;
+  animation-duration: 0.6s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  z-index: -1;
+}
+
+/*刊頭影片*/
+.header_video {
+  position: absolute;
+  width: 100%;
+  height: 48vw;
+  top: 0;
+  left: 0%;
+  overflow: hidden;
+  z-index: 1;
+  background-image: url(../image/kv_vdeo_bg_pc_250911.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/*影片壓點點*/
+.header_video .mask_cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0%;
+
+  z-index: 60;
+
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/dote.webp);
+  background-repeat: repeat;
+}
+
+/*影片背景*/
+.header_video video {
+  object-fit: cover;
+  object-position: left top;
+  height: 100%;
+  width: 100%;
+}
+
+/*儲值_pc*/
+#home .pay_box_pc {
+  position: absolute;
+  width: 19%;
+  height: auto;
+  padding-bottom: 5%;
+  top: 9%;
+  right: 6%;
+  z-index: 60;
+
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/pay_box_0416.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  display: block;
+}
+
+#home .pay_box_pc .pay_word {
+  position: absolute;
+  width: 75%;
+  height: auto;
+  padding-bottom: 0%;
+  top: 40%;
+  left: 8%;
+  z-index: 60;
+
+  background-color: #61fbe900;
+  /*顏色標記*/
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#home .pay_box_pc .pay_word .pay_list {
+  font-size: 0.9vw;
+  color: #fff;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+#home .pay_box_pc .pay_word .pay_list:hover {
+  color: #c20000;
+}
+
+/*星星們*/
+.star1 {
+  position: absolute;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/star1.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+.star2 {
+  position: absolute;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/star2.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+header .star1,
+header .star2 {
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+header .s1 {
+  top: 50%;
+  padding-top: 4%;
+  left: 17%;
+  width: 4.39%;
+  animation-duration: 12s;
+
+  pointer-events: none;
+}
+
+header .s2 {
+  top: 77.62%;
+  padding-top: 3.5%;
+  left: 1%;
+  width: 3.62%;
+
+  animation-duration: 11s;
+
+  pointer-events: none;
+}
+
+header .s3 {
+  top: 61.85%;
+  padding-top: 5%;
+  right: 15%;
+  width: 4.47%;
+  animation-duration: 9s;
+  pointer-events: none;
+}
+
+header .s4 {
+  top: 37.23%;
+  padding-top: 3.08%;
+  right: 28.15%;
+  width: 3.08%;
+  animation-duration: 6s;
+  pointer-events: none;
+}
+
+#home .btn_video {
+  position: absolute;
+  left: 72%;
+  top: 45%;
+  cursor: pointer;
+  z-index: 65;
+}
+
+#home .btn_video img {
+  width: 70%;
+}
+
+#home .pv_box {
+  display: block;
+  position: absolute;
+  margin-top: 32.16%;
+  padding-top: 5.92%;
+  right: 18.5%;
+  width: 5.92%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/pv.png)
+    no-repeat 0 0;
+  background-size: 100%;
+  cursor: pointer;
+  z-index: 65;
+  transition: 300ms;
+  transform: scale(1);
+}
+
+#home .pv_box:hover {
+  transition: 300ms;
+  transform: scale(1.1);
+}
+
+/*slogan*/
+#home .slogan_box {
+  position: absolute;
+  width: 32vw;
+  height: auto;
+  /* padding-bottom: 21%;
+  top: 42.16%; */
+  /* 0403 */
+  padding-bottom: 27.2%;
+  top: 35.5%;
+  left: 26%;
+  z-index: 60;
+  background-image: url(../image/slogan_250929.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+/*QR_code*/
+#home .QR_box_0416 {
+  position: absolute;
+  width: 15%;
+  height: auto;
+  padding-bottom: 20%;
+  top: 68.16%;
+  left: 15.5%;
+  z-index: 60;
+
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/QR/qr_box.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#home .QR_box_0416 .check_icon {
+  position: absolute;
+  width: 48%;
+  height: auto;
+  padding-bottom: 0%;
+  top: -0.84%;
+  left: -4%;
+  z-index: 60;
+
+  animation: infinite-shake 3.5s infinite;
+  animation-delay: 0.5s;
+}
+
+header .btn_prelogin {
+  position: absolute;
+  margin-top: 57.5%;
+  width: 26%;
+  right: 36%;
+  opacity: 0;
+  animation: infinite-shake 3.5s infinite;
+  animation-delay: 0.5s;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  z-index: 2;
+
+  display: none;
+}
+
+header .btn_prelogin.fadein {
+  opacity: 1;
+}
+
+header .btn_prelogin img {
+  width: 100%;
+}
+
+/*---- app_store ----*/
+.app_icon_box {
+  position: absolute;
+  margin-top: 53%;
+  padding-bottom: 16.2%;
+  width: 41%;
+  left: 30.5%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/app_box_pc_0919.webp)
+    no-repeat center top;
+  background-size: 100%;
+}
+
+.app_icon_box .apple_store,
+.app_icon_box .google_play,
+.app_icon_box .google_PC,
+.app_icon_box .windows {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+}
+
+.app_icon_box .apple_store {
+  width: 37%;
+  left: 8%;
+  top: 10.5%;
+  padding-bottom: 14.5%;
+  background: url(https://ids.iwplay.com.tw/images/badge/ios_dl.svg) no-repeat
+    center top;
+  background-size: 100%;
+}
+
+.app_icon_box .google_play {
+  width: 46%;
+  left: 48.5%;
+  top: 10.5%;
+  padding-bottom: 14.5%;
+  background: url(https://ids.iwplay.com.tw/images/badge/gp_dl.svg) no-repeat
+    center top;
+  background-size: 100%;
+}
+
+.app_icon_box .google_PC {
+  width: 51%;
+  left: 7.8%;
+  top: 47.5%;
+  padding-bottom: 11.5%;
+  background: url(https://ids.iwplay.com.tw/images/badge/Play_on_PC.svg)
+    no-repeat center top;
+  background-size: 100%;
+}
+
+.app_icon_box .windows {
+  width: 35.5%;
+  top: 47.5%;
+  left: 60%;
+  padding-bottom: 11.5%;
+  background: url(https://ids.iwplay.com.tw/images/badge/windows_dl.svg)
+    no-repeat center top;
+  background-size: 100%;
+}
+
+.app_icon_box .apple_store,
+.app_icon_box .google_play,
+.app_icon_box .google_PC,
+.app_icon_box .windows {
+  transition: 0.3s;
+  transform: scale(1);
+}
+
+.app_icon_box .apple_store:hover,
+.app_icon_box .google_play:hover,
+.app_icon_box .google_PC:hover,
+.app_icon_box .windows:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+/*---- 遊戲新聞NEWS ----*/
+.news {
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 4.5%;
+  width: 72.92%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/bg.png)
+    no-repeat top center;
+  background-size: 100%;
+  z-index: 0;
+}
+
+.news .title {
+  position: absolute;
+  top: -16.5%;
+  left: 0;
+  width: 33.35%;
+}
+
+.news .content {
+  position: relative;
+  margin-top: -3%;
+  padding-top: 5%;
+  width: 94.28%;
+}
+
+.news .more {
+  position: absolute;
+  padding-top: 5.71%;
+  right: -2.3%;
+  top: -4%;
+  width: 6.07%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/more.png)
+    no-repeat center top;
+  background-size: 100%;
+  z-index: 2;
+}
+
+.news_list .new {
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/tab-new.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+/*---- 輪播Banner ----*/
+.bn {
+  width: 51.51%;
+  clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+}
+
+/*---- 遊戲新聞列表List ----*/
+.news_content {
+  position: relative;
+  margin: 0 auto;
+  margin-right: 0;
+  padding: 0.75%;
+  width: 45.45%;
+  background: #000;
+  clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+}
+
+.news_inner {
+  position: relative;
+  background: #00000000;
+}
+
+/*---- 新聞列表List 類別 ----*/
+.news_list {
+  position: relative;
+  padding-left: 3.3%;
+  letter-spacing: 0;
+}
+
+.news_list li:nth-child(1) {
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/tab-new.png);
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  background-position: center center !important;
+}
+
+.news_list li.active:nth-child(1) {
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/tab-new-active.png) !important;
+}
+
+.news_list li:nth-child(2) {
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/tab-news.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 85% !important;
+  background-position: center center !important;
+}
+
+.news_list li.active:nth-child(2) {
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/tab-news-active.png) !important;
+}
+
+.news_list li:nth-child(3) {
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/tab-event.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  background-position: center center !important;
+}
+
+.news_list li.active:nth-child(3) {
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/tab-event-active.png) !important;
+}
+
+.news_list li:nth-child(4) {
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/tab-system.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 85% !important;
+  background-position: center center !important;
+}
+
+.news_list li.active:nth-child(4) {
+  background-image: url(https://images1.iwplay.com.tw/image/p5x/main/image/news/tab-system-active.png) !important;
+}
+
+.news_list li {
+  display: inline-block;
+  padding: 1% 5%;
+  padding-top: 7.16%;
+  cursor: pointer;
+  width: 19.33%;
+}
+
+/*---- 新聞列表內容 ----*/
+.news_list_item {
+  display: none;
+  padding: 3.33%;
+}
+
+.news_list_item.active {
+  display: block;
+}
+
+.news_list_item.active ul {
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.news_list_item ul {
+  list-style: none;
+  opacity: 0;
+  z-index: 1;
+}
+
+.news_list_item ul li {
+  display: block;
+  width: 100%;
+}
+
+.news_list_item ul li a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  position: relative;
+  display: block;
+  padding: 1.26% 0 1.43%;
+  padding-left: 1.66%;
+  color: #fff;
+  letter-spacing: 0.08%;
+  transition: 0.5s;
+}
+
+.news_list_item .system-title {
+  font-size: 0.85vw;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+.news_list_item .system-title .tt {
+  display: inline;
+  margin-bottom: initial;
+}
+
+.newsdetails-newsbadge {
+  background: #61fbea;
+  background-size: 51% 100%;
+}
+
+.newsdetails-actbadge {
+  background: #f9be22;
+  background-size: 51% 100%;
+}
+
+.newsdetails-sysbadge {
+  background: #b19ffe;
+  background-size: 51% 100%;
+}
+
+.news_list_item ul li .newsdetails-badge,
+.newsdetails-newsbadge,
+.newsdetails-sysbadge {
+  display: inline-block;
+  margin-bottom: 1%;
+  padding: 0.33% 3.2%;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.news_list_item .systemtime {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 0.78vw;
+  text-align: left;
+  letter-spacing: 0;
+}
+
+/*--角色介紹_星星--*/
+.character .s1 {
+  padding-top: 13.86%;
+  top: -0.3%;
+  left: -2.19%;
+  width: 13.18%;
+}
+
+.character .s2 {
+  padding-top: 8.4%;
+  bottom: 3.48%;
+  left: -6.82%;
+  width: 8.1%;
+}
+
+.character .s3 {
+  padding-top: 5.23%;
+  top: 27.37%;
+  right: 0;
+  width: 5.15%;
+}
+
+.character .s4 {
+  padding-top: 2.95%;
+  bottom: 13.45%;
+  right: -2.34%;
+  width: 2.8%;
+}
+
+.character .s5 {
+  padding-top: 8.03%;
+  top: 21.45%;
+  left: -16.59%;
+  width: 7.95%;
+}
+
+.character .s6 {
+  padding-top: 8.03%;
+  top: 9.36%;
+  right: -16.59%;
+  width: 7.95%;
+}
+
+.character .s7 {
+  padding-top: 8.03%;
+  bottom: 36.17%;
+  right: 2.32%;
+  width: 7.95%;
+  display: none;
+}
+
+/*---- 校園生活 ----*/
+.school {
+  position: relative;
+  height: 43.8vw;
+  width: 68.75%;
+  margin: 0 auto;
+}
+
+.school .title {
+  position: absolute;
+  width: 50.53%;
+  top: 0.4%;
+  left: 2.04%;
+}
+
+.school .wrap {
+  position: absolute;
+  padding-top: 52.8%;
+  top: 7.22%;
+  left: 4.42%;
+  width: 84.39%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/school/wrap.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+.school_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.school .slide1_tit {
+  position: absolute;
+  width: 63.25%;
+  top: 22.7%;
+  left: 6.59%;
+  animation-duration: 0.3s;
+}
+
+.school .slide1_role {
+  position: absolute;
+  width: 36.51%;
+  top: 4.98%;
+  right: 7.19%;
+  animation-duration: 0.3s;
+}
+
+.school .slide2_tit {
+  position: absolute;
+  width: 43.71%;
+  top: 28.56%;
+  left: 11.54%;
+  animation-duration: 0.3s;
+}
+
+.school .slide2_role {
+  position: absolute;
+  width: 22.8%;
+  top: 9.19%;
+  right: 18.25%;
+  animation-duration: 0.3s;
+}
+
+.school .slide3_tit {
+  position: absolute;
+  width: 41.89%;
+  top: 27.65%;
+  left: 12.12%;
+  animation-duration: 0.3s;
+}
+
+.school .slide3_role {
+  position: absolute;
+  width: 25.83%;
+  top: 11.2%;
+  right: 19.54%;
+  animation-duration: 0.3s;
+}
+
+.school .slide_text {
+  position: absolute;
+  top: 62.93%;
+  left: 16.59%;
+  line-height: 1.35vw;
+  font-size: 0.93vw;
+  color: #fff;
+  animation-duration: 0.3s;
+}
+
+.school .thumbnail_box {
+  position: absolute;
+  padding-top: 20.15%;
+  top: 63.06%;
+  left: 41.66%;
+  width: 24.77%;
+  cursor: pointer;
+  animation-duration: 0.3s;
+}
+
+.school .thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/school/thumbnail.png)
+    no-repeat 0 0;
+  background-size: 100%;
+  transition: transform 0.8s;
+}
+
+.school .thumbnail img {
+  position: absolute;
+  top: 7.51%;
+  left: 8.86%;
+  width: 85.93%;
+  height: auto;
+}
+
+.school .thumbnail:hover {
+  transform: rotate(10deg) scale(1.1);
+}
+
+.school .zoom {
+  position: absolute;
+  padding-top: 22.32%;
+  top: -8.23%;
+  left: 80.73%;
+  width: 22.93%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/school/zoom.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+.school .prev,
+.school .next {
+  position: absolute;
+  width: 8.26%;
+  z-index: 1;
+}
+
+.school .prev {
+  top: 42.91%;
+  left: -0.2%;
+}
+
+.school .next {
+  top: 42.71%;
+  right: 0%;
+}
+
+.school .s1 {
+  padding-top: 6.51%;
+  top: -1%;
+  left: 38.4%;
+  width: 6.28%;
+}
+
+.school .s2 {
+  padding-top: 6.51%;
+  right: -3.56%;
+  bottom: 7.38%;
+  width: 6.36%;
+}
+
+.school .s3 {
+  padding-top: 6.51%;
+  top: 57.87%;
+  left: -9.09%;
+  width: 6.18%;
+}
+
+/*---- 異世界之旅 ----*/
+.metaverse {
+  position: relative;
+  height: 47.65vw;
+  width: 67.7%;
+  margin: 0 auto;
+}
+
+.metaverse .title {
+  position: absolute;
+  top: -2.2%;
+  left: 41.84%;
+  width: 52.38%;
+}
+
+.metaverse .wrap {
+  position: absolute;
+  padding-top: 53.61%;
+  top: 12.78%;
+  left: 9.23%;
+  width: 85.69%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/metaverse/wrap.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+.metaverse_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.metaverse .slide1_tit {
+  position: absolute;
+  width: 62.3%;
+  top: 24.8%;
+  left: 34%;
+  animation-duration: 0.3s;
+}
+
+.metaverse .slide1_role {
+  position: absolute;
+  width: 38.3%;
+  top: 20.5%;
+  left: 3.53%;
+  animation-duration: 0.3s;
+}
+
+.metaverse .slide2_tit {
+  position: absolute;
+  width: 41.84%;
+  top: 27.21%;
+  left: 43.69%;
+  animation-duration: 0.3s;
+}
+
+.metaverse .slide2_role {
+  position: absolute;
+  width: 27.53%;
+  top: 13.26%;
+  left: 15.15%;
+  animation-duration: 0.3s;
+}
+
+.metaverse .slide3_tit {
+  position: absolute;
+  width: 42.53%;
+  top: 26.12%;
+  left: 45.46%;
+  animation-duration: 0.3s;
+}
+
+.metaverse .slide3_role {
+  position: absolute;
+  width: 54.61%;
+  top: 17.31%;
+  left: 0;
+  animation-duration: 0.3s;
+}
+
+.metaverse .slide4_tit {
+  position: absolute;
+  width: 42.07%;
+  top: 26.86%;
+  left: 45.92%;
+  animation-duration: 0.3s;
+}
+
+.metaverse .slide4_role {
+  position: absolute;
+  width: 30.3%;
+  top: 9.68%;
+  left: 16.61%;
+  animation-duration: 0.3s;
+}
+
+.metaverse .slide_text {
+  position: absolute;
+  top: 61.82%;
+  left: 55.46%;
+  line-height: 1.35vw;
+  font-size: 0.93vw;
+  color: #fff;
+  animation-duration: 0.3s;
+}
+
+.metaverse .thumbnail_box {
+  position: absolute;
+  padding-top: 19.3%;
+  top: 61.8%;
+  left: 23.92%;
+  width: 24.84%;
+  cursor: pointer;
+  animation-duration: 0.3s;
+}
+
+.metaverse .thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/metaverse/thumbnail.png)
+    no-repeat 0 0;
+  background-size: 100%;
+  transition: transform 0.8s;
+}
+
+.metaverse .thumbnail img {
+  position: absolute;
+  top: 10.96%;
+  left: 8.66%;
+  width: 85.13%;
+}
+
+.metaverse .thumbnail:hover {
+  transform: rotate(-10deg) scale(1.1);
+}
+
+.metaverse .zoom {
+  position: absolute;
+  padding-top: 19.5%;
+  top: 18.86%;
+  left: 93.8%;
+  width: 21.67%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/metaverse/zoom.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+.metaverse .prev,
+.metaverse .next {
+  position: absolute;
+  width: 8.26%;
+  z-index: 1;
+}
+
+.metaverse .prev {
+  top: 42.91%;
+  left: -0.2%;
+}
+
+.metaverse .next {
+  top: 42.71%;
+  right: -0.2%;
+}
+
+.metaverse .s1 {
+  padding-top: 8%;
+  bottom: 15.15%;
+  left: 12.07%;
+  width: 6.23%;
+}
+
+.metaverse .s2 {
+  padding-top: 6.53%;
+  top: 10.75%;
+  left: -14.61%;
+  width: 6.23%;
+}
+
+.metaverse .s3 {
+  padding-top: 4.46%;
+  bottom: 23.98%;
+  right: -14.61%;
+  width: 4.23%;
+}
+
+/*---- 遊戲特色 ----*/
+.feature {
+  position: relative;
+  height: 60.63vw;
+  width: 67.7%;
+  margin: 0 auto;
+}
+
+.feature .title {
+  position: absolute;
+  top: -1%;
+  left: 3.07%;
+  width: 36.07%;
+}
+
+.shape-focus {
+  position: absolute;
+  top: 24.26%;
+  left: 50%;
+  margin-left: -38.15%;
+  width: 76.42%;
+  height: 50.59%;
+}
+
+.shape-focus .slider-panel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.shape-focus .slider {
+  position: absolute;
+  left: 0;
+  top: 59.67%;
+  border: 1.04vw solid #fff;
+  padding: 1.04vw;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  transform-origin: center center;
+  visibility: hidden;
+  z-index: 0;
+  opacity: 0;
+  transform: rotate(0deg) scale(0.8);
+  transition: left 0.2s ease-in, top 0.2s ease-in, transform 0.2s ease-in,
+    opacity 0.2s ease-in;
+}
+
+.shape-focus .slider-panel .slider.visible {
+  visibility: visible;
+}
+
+.shape-focus .slider-panel .slider .content {
+  background: blueviolet;
+  width: 100%;
+  height: 100%;
+}
+
+.shape-focus .slider-panel .slider .content img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.shape-focus .slider-panel .slider .content img.mob {
+  display: none;
+}
+
+.shape-focus .next-btn,
+.shape-focus .prev-btn {
+  position: absolute;
+  padding-top: 12.93%;
+  width: 100%;
+  overflow: hidden;
+  text-indent: -999px;
+  line-height: 0;
+  font-size: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  z-index: 12;
+}
+
+.shape-focus .prev-btn {
+  left: -12.09%;
+  top: 34.16%;
+  width: 11.25%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/prev.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+.shape-focus .prev-btn:hover {
+  left: -13.09%;
+}
+
+.shape-focus .next-btn {
+  right: -19.73%;
+  top: 36.67%;
+  width: 11.25%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/next.png)
+    no-repeat 0 0;
+  background-size: 100%;
+}
+
+.shape-focus .next-btn:hover {
+  right: -20.73%;
+}
+
+.concept_box {
+  position: absolute;
+  left: 50%;
+  bottom: 26.96%;
+  transform: translate(-50%, 0);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.follow_us_bottom {
+  position: absolute;
+  bottom: 5.2vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 3.4vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.follow_us.follow_us_bottom a {
+  margin: 0 auto;
+  padding-top: 9.18%;
+  width: 9.18%;
+}
+
+.feature .s1 {
+  padding-top: 5.08%;
+  top: 4.96%;
+  left: 40.26%;
+  width: 4.84%;
+}
+
+.feature .s2 {
+  padding-top: 4.92%;
+  top: 57.98%;
+  left: 13.69%;
+  width: 5%;
+}
+
+.feature .s3 {
+  padding-top: 8.92%;
+  top: 75.44%;
+  right: -11.23%;
+  width: 8.54%;
+}
+
+.feature .s4 {
+  padding-top: 4.92%;
+  top: 55.26%;
+  left: -10.89%;
+  width: 5%;
+}
+
+.feature .s5 {
+  padding-top: 9.53%;
+  top: -0.2%;
+  right: -17.69%;
+  width: 9.61%;
+}
+
+/*---- go top ----*/
+.go_top {
+  position: fixed;
+  bottom: 3%;
+  left: 61%;
+  margin-left: 31.25%;
+  margin-bottom: 5.21%;
+  padding-top: 6.87%;
+  width: 6.87%;
+  background: url(https://images1.iwplay.com.tw/image/p5x/main/image/go_top.png)
+    no-repeat 0 0;
+  background-size: cover;
+  z-index: 8;
+  cursor: pointer;
+  display: none;
+}
+
+/*---- footer ----*/
+footer {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+footer p,
+footer ul {
+  opacity: 1;
+}
+
+footer .company > img {
+  width: 122px;
+  height: auto;
+}
+
+footer img {
+  width: initial;
+  height: initial;
+}
+
+footer .grading img {
+  vertical-align: middle;
+}
+
+/*▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+       入場_彈窗
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀*/
+/*BS談窗黑幕*/
+.modal-backdrop.show {
+  opacity: 0.8 !important;
+}
+
+.site_in_pop .modal-dialog {
+  max-width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 0, 255, 0);
+  /*顏色標記*/
+}
+
+.site_in_pop .modal-dialog .modal-content.popup {
+  background-color: transparent !important;
+  border: none;
+}
+
+.site_in_pop .modal-dialog .modal-content.popup .modal-body {
+  position: relative;
+  height: auto;
+  padding-bottom: 60%;
+  background: url("");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 255, 255, 0);
+  /*顏色標記*/
+}
+
+/*--資訊區域--*/
+.site_in_pop .pop_main_content_1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding-bottom: 61%;
+  top: 0%;
+  left: 0%;
+  z-index: 70;
+  /*background: url("https://images2.iwplay.com.tw/image/p5x/events/20240516/image/vote_pop/vote_gift_show_pop_pc.webp");*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(103, 150, 238, 0);
+  /*顏色標記*/
+}
+
+/*--X按鈕--*/
+.site_in_pop .dw_btn_close {
+  position: absolute;
+  width: 5%;
+  right: 14%;
+  top: 15.5%;
+  opacity: 1;
+  overflow: visible;
+  z-index: 73;
+  display: block;
+  background-color: rgba(0, 255, 255, 0);
+  /*顏色標記*/
+  -moz-transform-origin: center center;
+  -webkit-transform-origin: center center;
+  -o-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translate(50%, -50%) rotate(0deg);
+  transform: translate(50%, -50%) rotate(0deg);
+}
+
+.site_in_pop .dw_btn_close img {
+  width: 100%;
+}
+
+.site_in_pop .dw_btn_close:hover {
+  -webkit-transform: translate(50%, -50%) rotate(180deg);
+  transform: translate(50%, -50%) rotate(180deg);
+}
+
+@media (max-width: 1100px) {
+  .site_in_pop .dw_btn_close {
+    width: 8%;
+    right: 7%;
+    top: 1.5%;
+    -webkit-transform: unset;
+    transform: unset;
+  }
+
+  .site_in_pop .dw_btn_close:hover {
+    -webkit-transform: unset;
+    transform: unset;
+  }
+}
+
+@media (max-width: 767px) {
+  /*close_btn*/
+  .site_in_pop .dw_btn_close {
+    width: 15%;
+    top: 0%;
+    right: 7%;
+  }
+
+  .site_in_pop .pop_main_content_1 {
+    width: 100%;
+    left: 0%;
+    padding-bottom: 133%;
+    /*background: url("https://images2.iwplay.com.tw/image/p5x/events/20240516/image/vote_pop/vote_gift_show_pop_sp.webp");*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .site_in_pop .modal-dialog .modal-content.popup .modal-body {
+    padding-bottom: 131%;
+  }
+}
+
+/*--pop_main_content_1_內容區--*/
+.site_in_pop .pop_main_content_1 {
+  display: block;
+}
+
+.site_in_pop .pop_main_content_1 .main_box {
+  position: absolute;
+  width: 96%;
+  height: auto;
+  padding-bottom: 57%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 63;
+  background-color: rgba(23, 199, 175, 0);
+  /*顏色標記*/
+}
+
+.site_in_pop .pop_main_content_1 .main_box .pic_1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0%;
+  top: 0%;
+  left: 1%;
+}
+
+@media (max-width: 1100px) {
+  .site_in_pop .modal-dialog {
+    max-width: 94%;
+  }
+}
+
+@media (max-width: 767px) {
+  .site_in_pop .modal-dialog {
+    max-width: 100%;
+  }
+
+  .site_in_pop .pop_main_content_1 .main_box {
+    width: 100%;
+    padding-bottom: 143%;
+    top: 50%;
+  }
+
+  .site_in_pop .pop_main_content_1 .main_box .pic_1 {
+    width: 100%;
+    top: 0%;
+    left: 0%;
+  }
+}
