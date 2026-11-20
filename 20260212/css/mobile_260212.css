@@ -1,0 +1,1119 @@
+﻿/*------------------------
+⁞            姚          ⁞
+⁞            姚          ⁞
+------------------------*/
+
+
+/*---- Mobile ----*/
+@media screen and (max-width: 1200px) {
+  footer .copyright p {
+    margin-top: 0;
+  }
+
+  footer .company {
+    margin-bottom: 0;
+  }
+
+  footer .company img {
+    margin: 0 3px;
+  }
+
+  footer .company img:nth-child(2),
+  footer .company img:nth-child(3) {
+    max-width: 80px;
+  }
+}
+
+@media screen and (max-width: 1195px) {
+
+  .character .s3,
+  .character .s4,
+  .character .s6,
+  .character .s8,
+  .school .s2,
+  .school .s3,
+  .school .s4,
+  .metaverse .s2,
+  .metaverse .s3,
+  .feature .s3,
+  .feature .s4,
+  .feature .s5 {
+    display: none;
+  }
+
+  nav {
+    height: 10.2vw;
+  }
+
+  .wrap_line {
+    background-size: 297.4%;
+  }
+
+  /*刊投影片*/
+  .header_video {
+    width: 100%;
+    height: 86vw;
+    top: 0;
+    left: 0%;
+    background-image: url(https://images5.iwplay.com.tw/image/p5x/main/image/kv_vdeo_bg_tb_260122.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  /*影片背景*/
+  .header_video video {
+    object-position: center top;
+  }
+
+  header {
+    height: 85vw;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .pv_box {
+    margin-top: 41.16%;
+  }
+
+  /*slogan_0711*/
+  #home .slogan_box {
+    width: 50vw;
+    padding-bottom: 39%;
+    top: 45.16%;
+    left: 16%;
+  }
+
+  .app_icon_box {
+    margin-top: 91%;
+    padding-bottom: 16.4%;
+    width: 73%;
+    left: 15.9%;
+
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/app_box_tb.webp) no-repeat center top;
+    background-size: 100%;
+  }
+
+  .app_icon_box .apple_store,
+  .app_icon_box .google_play {
+    padding-bottom: 14.5%;
+    top: 14%;
+  }
+
+  .app_icon_box .apple_store {
+    width: 39%;
+    left: 8%;
+  }
+
+  .app_icon_box .google_play {
+    width: 47%;
+    left: 48.5%;
+  }
+
+  .app_icon_box .google_PC {
+    display: none;
+  }
+
+  .app_icon_box .windows {
+    display: none;
+  }
+
+  header .btn_prelogin {
+    margin-top: 62%;
+    right: 40%;
+  }
+
+  /*0416 新增*/
+  #home .slogan_0416 {
+    width: 52vw;
+    padding-bottom: 36%;
+    top: 39.16%;
+    left: 14%;
+  }
+
+  #home .QR_box_0416 {
+    display: none;
+  }
+
+  #home .pv_box {
+    margin-top: 48.16%;
+    padding-top: 11.92%;
+    right: 6.5%;
+    width: 10.92%;
+  }
+
+  /*星星們*/
+  header .s1 {
+    top: 43%;
+    padding-top: 6%;
+    left: 4%;
+    width: 6.39%;
+  }
+
+  header .s2 {
+    top: 76.62%;
+    padding-top: 8.5%;
+    left: -17%;
+    width: 8.62%;
+  }
+
+  header .s3 {
+    top: 57.85%;
+    padding-top: 6%;
+    right: -7%;
+    width: 7.47%;
+  }
+
+  header .s4 {
+    top: 18.23%;
+    padding-top: 4.08%;
+    right: -20.85%;
+    width: 5.08%;
+  }
+
+  /*儲值區塊*/
+  #home .pay_box_pc {
+    width: 29%;
+    padding-bottom: 9%;
+    top: 10%;
+    right: 6%;
+  }
+
+  #home .pay_box_pc .pay_word {
+    top: 33%;
+  }
+
+  #home .pay_box_pc .pay_word .pay_list {
+    font-size: 1.4vw;
+    color: #fff;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+
+  .news {
+    padding-bottom: 6%;
+    width: 100%;
+  }
+
+  .news_list_item {
+    padding: 1.3% 3.33%;
+  }
+
+  .news_list_item .system-title {
+    font-size: 1.6vw;
+  }
+
+  .news_list_item .systemtime {
+    font-size: 1.1vw;
+  }
+
+  .school {
+    width: 100%;
+    height: 63.8vw;
+  }
+
+  .school .slide_text {
+    font-size: 1.4vw;
+    line-height: 2vw;
+  }
+
+  .metaverse {
+    width: 100%;
+    height: 70.65vw;
+  }
+
+  .metaverse .slide_text {
+    font-size: 1.4vw;
+    line-height: 2vw;
+  }
+
+  .concept_box {
+    bottom: 16.96%;
+  }
+
+  .feature {
+    width: 100%;
+    height: 88.63vw;
+  }
+
+  .shape-focus .slider {
+    border: 1.3vw solid #fff;
+    padding: 1.3vw;
+  }
+
+  .shape-focus .next-btn {
+    right: -13.3%;
+  }
+
+  .shape-focus .next-btn:hover {
+    right: -15.3%;
+  }
+
+  .follow_us_bottom {
+    bottom: 8vw;
+  }
+
+  .follow_us.follow_us_bottom a {
+    padding-top: 13%;
+    width: 13%;
+  }
+}
+
+@media (max-width: 767px) {
+  #home .slogan_box {
+    width: 91.5vw;
+    /* padding-bottom: 61%;
+    top: 53.16%;
+    left: -14%; */
+    /* 0403 */
+    padding-bottom: 78.6%;
+    top: 45.9%;
+    left: -16.5%;
+  }
+
+  /*--手機刊頭影片--*/
+  .header_video video {
+    height: 126%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/bg.jpg) repeat-y center top;
+    background-size: 100%;
+  }
+
+  nav {
+    position: fixed;
+    height: 14.5vw;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/nav/fixed_top.jpg) no-repeat center top;
+  }
+
+  .content,
+  .news {
+    width: 100%;
+  }
+
+  nav .content {
+    display: none;
+  }
+
+  nav .content.mob {
+    display: block;
+  }
+
+  nav .gameinfo_mob {
+    position: absolute;
+    padding-top: 1.8%;
+    padding-left: 1.33%;
+    top: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  nav .gameinfo_mob .icon {
+    width: 10.88%;
+  }
+
+  nav .gameinfo_mob dl {
+    margin-left: 2%;
+    color: #fff;
+  }
+
+  nav .gameinfo_mob dt {
+    font-size: 3.46vw;
+  }
+
+  nav .gameinfo_mob dd {
+    font-size: 2.66vw;
+  }
+
+  nav .menu_right {
+    right: 6%;
+    width: 28%;
+    height: 7vw;
+    justify-content: center;
+  }
+
+  nav .menu_right .menu,
+  nav .menu_right .btn_music,
+  nav .menu_right a.followUs_fb {
+    position: relative;
+    margin: 0 3.5%;
+    padding-top: 24.97%;
+    width: 24.97%;
+    transition: initial;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  nav .menu_right .menu {
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/nav/menu_nav_open.png) no-repeat center top;
+    background-size: 100%;
+  }
+
+  nav .menu_right .menu::after {
+    display: none;
+  }
+
+  nav .menu_right .btn_music.off {
+    background-position: center bottom;
+  }
+
+  nav .menu_right .btn_music:hover {
+    transform: initial;
+  }
+
+  nav .menu_right a.followUs_fb {
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/snslink/followUs_fb_m.png) no-repeat center top;
+    background-size: 100%;
+  }
+
+  nav .btn_prelogin {
+    position: absolute;
+    margin-top: 0;
+    padding-top: 15.6%;
+    top: 0;
+    right: 0;
+    width: 22%;
+    z-index: 5;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/btn-join.png) no-repeat right top;
+    background-size: 100%;
+    transform: initial;
+    transition: initial;
+
+    display: none;
+  }
+
+  nav .btn_prelogin:hover {
+    background-position: initial;
+    transform: initial;
+  }
+
+  .menu_mob {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/nav/menu_nav_cont.png) no-repeat left -4% rgba(0, 0, 0, 0.9);
+    background-size: contain;
+    z-index: 8;
+    transition: 0.5s;
+  }
+
+  .menu_mob.on {
+    top: 0;
+  }
+
+  .pop_close {
+    display: block;
+    position: absolute;
+    padding-top: 10.13%;
+    width: 10.13%;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/pop_close.png) no-repeat 0 0;
+    background-size: 100%;
+    cursor: pointer;
+  }
+
+  .menu_mob .pop_close {
+    top: 3.7%;
+    right: 6.26%;
+  }
+
+  .menu_nav {
+    position: absolute;
+  }
+
+  a.menu_nav {
+    transition: initial;
+  }
+
+  .menu_nav.m1 {
+    padding-top: 12%;
+    top: 19.56%;
+    left: 23.2%;
+    width: 22.53%;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/nav/menu_n1.png) no-repeat 0 0;
+    background-size: 100%;
+  }
+
+  .menu_nav.m2 {
+    padding-top: 13.46%;
+    top: 28.26%;
+    left: 25.33%;
+    width: 31.33%;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/nav/menu_n2.png) no-repeat 0 0;
+    background-size: 100%;
+  }
+
+  .menu_nav.m3 {
+    padding-top: 11.46%;
+    top: 37.33%;
+    left: 41.2%;
+    width: 32.53%;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/nav/menu_n3.png) no-repeat 0 0;
+    background-size: 100%;
+  }
+
+  .menu_nav.m4 {
+    padding-top: 11.46%;
+    top: 48.1%;
+    left: 40.13%;
+    width: 32.53%;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/nav/menu_n4.png) no-repeat 0 0;
+    background-size: 100%;
+  }
+
+  .menu_nav.m5 {
+    padding-top: 13.73%;
+    top: 58.13%;
+    left: 48.13%;
+    width: 35.73%;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/nav/menu_n5.png) no-repeat 0 0;
+    background-size: 100%;
+  }
+
+  /*儲值區塊_sp*/
+  .menu_mob .pay_box_sp {
+    position: absolute;
+    width: 85%;
+    height: auto;
+    padding-bottom: 29%;
+    top: 66%;
+    left: 0%;
+
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/nav/menu_pay_box.webp) no-repeat 0 0;
+    background-size: 100%;
+
+    display: block;
+  }
+
+  .menu_mob .pay_box_sp .pay_word {
+    position: absolute;
+    width: 75%;
+    height: auto;
+    padding-bottom: 0%;
+    top: 41%;
+    left: 11%;
+    z-index: 60;
+
+    background-color: #61fbe900;
+    /*顏色標記*/
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .menu_mob .pay_box_sp .pay_word .pay_list {
+    font-size: 3.9vw;
+    color: #fff;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+
+  .menu_mob .pay_box_sp .pay_word .pay_list:hover {
+    color: #c20000;
+  }
+
+  .wrap_line {
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/wrap_line_m.png) no-repeat left top;
+    background-size: 100%;
+  }
+
+  /*刊投影片*/
+  .header_video {
+    width: 100%;
+    height: 133vw;
+    top: 0;
+    left: 0%;
+  }
+
+  .header_video .mask_cover {
+    background-size: 1%;
+  }
+
+  header {
+    height: 160vw;
+  }
+
+  .header_bg {
+    margin-top: -13%;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/header2_m.png) no-repeat center bottom;
+    background-size: 100%;
+  }
+
+  .logo.mob {
+    display: block;
+    margin-top: 25%;
+    width: 40.66%;
+    left: -21%;
+    z-index: 5;
+  }
+
+  .role1 {
+    margin-top: 31.7%;
+    width: 100%;
+  }
+
+  .role1 img {
+    display: none;
+  }
+
+  .role1 img.mob {
+    display: block;
+  }
+
+  .s1,
+  .s2,
+  .s3,
+  .s4,
+  .s5,
+  .s6,
+  .s7 {
+    display: none;
+  }
+
+  header .s1 {
+    display: block;
+    top: 20.86%;
+    padding-top: 13.33%;
+    width: 14.33%;
+    left: initial;
+    right: -18.1%;
+  }
+
+  header .s2 {
+    display: block;
+    top: 45%;
+    padding-top: 8.66%;
+    width: 9.66%;
+    left: -12%;
+  }
+
+  .pv_box {
+    margin-top: 109.27%;
+    padding-top: 13%;
+    width: 13%;
+    right: 11.5%;
+  }
+
+  .app_icon_box {
+    margin-top: 172%;
+    padding-bottom: 33.7%;
+    width: 145%;
+    left: -21.5%;
+  }
+
+  header .btn_prelogin {
+    position: absolute;
+    margin-top: 148.57%;
+    width: 55%;
+    left: 20%;
+  }
+
+  #home .slogan_0416 {
+    width: 95vw;
+    padding-bottom: 64%;
+    top: 51.16%;
+    left: -19%;
+
+    background-image: url(https://images2.iwplay.com.tw/image/p5x/main/image/slogan_0418_sp.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  /*儲值區塊_pc*/
+  #home .pay_box_pc {
+    display: none;
+  }
+
+  #home .pv_box {
+    margin-top: 94.16%;
+    padding-top: 18.92%;
+    right: -6.5%;
+    width: 16.92%;
+  }
+
+  .news {
+    position: relative;
+    padding-bottom: 0;
+    background: none;
+    overflow: hidden;
+  }
+
+  .news .title {
+    position: relative;
+    margin-top: 25.7%;
+    width: 50.66%;
+  }
+
+  .news .title img {
+    display: none;
+  }
+
+  .news .title img.mob {
+    display: block;
+  }
+
+  .news .content {
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .news .more {
+    margin-top: 59.5%;
+    padding-top: 10.66%;
+    right: 3.2%;
+    top: 0;
+    width: 11.33%;
+  }
+
+  .bn,
+  .news_content {
+    width: 100%;
+    left: 0;
+  }
+
+  .news_content {
+    padding: 5% 0 1.5%;
+  }
+
+  .news_list li {
+    margin: 0 0.7%;
+  }
+
+  .news_list_item {
+    padding: 2.13% 3.33%;
+  }
+
+  .news_list_item ul li a {
+    padding: 0.95% 0 1.43%;
+    padding-left: 1.66%;
+  }
+
+  .news_list_item ul li .newsdetails-badge,
+  .newsdetails-newsbadge,
+  .newsdetails-sysbadge {
+    padding: 0.33% 2.2%;
+  }
+
+  .news_list_item .system-title {
+    font-size: 3.6vw;
+  }
+
+  .news_list_item .systemtime {
+    font-size: 2.6vw;
+  }
+
+  .news .s1.mob {
+    display: block;
+    top: 9.1%;
+    padding-top: 14.13%;
+    width: 14%;
+    left: 31.96%;
+    z-index: 5;
+  }
+
+  .news .s2.mob {
+    display: block;
+    top: 25.1%;
+    padding-top: 13.2%;
+    width: 13.6%;
+    right: 1.33%;
+    z-index: 5;
+  }
+
+  /*--角色介紹_星星--*/
+  .character .s1 {
+    display: block;
+    padding-top: 24.4%;
+    width: 23.2%;
+    top: 0;
+    left: 6%;
+  }
+
+  .character .s8 {
+    display: block;
+    padding-top: 13.86%;
+    width: 13.86%;
+    bottom: 3.5%;
+    left: 1%;
+  }
+
+  .school {
+    height: 121.4vw;
+  }
+
+  .school .title {
+    width: 88.93%;
+    top: -1.2%;
+    left: 0;
+  }
+
+  .school .wrap {
+    padding-top: 92.93%;
+    width: 94%;
+    top: 6.4%;
+    left: initial;
+    right: 0;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/school/wrap_m.png) no-repeat center top;
+    background-size: 100%;
+  }
+
+  .school .slide1_role,
+  .school .slide2_role,
+  .school .slide3_role {
+    display: none;
+  }
+
+  .school .slide1_role.mob,
+  .school .slide2_role.mob,
+  .school .slide3_role.mob {
+    display: block;
+  }
+
+  .school .slide1_tit {
+    width: 91.86%;
+    left: 6.2%;
+  }
+
+  .school .slide1_role {
+    width: 34%;
+    right: 0;
+    top: initial;
+    bottom: 12.1%;
+  }
+
+  .school .slide2_tit {
+    width: 61.06%;
+    top: 24%;
+    left: 14%;
+    z-index: 1;
+  }
+
+  .school .slide2_role {
+    width: 29.73%;
+    right: 0;
+    top: initial;
+    bottom: 20.2%;
+  }
+
+  .school .slide3_tit {
+    width: 58.53%;
+    left: 15.5%;
+    top: 23.5%;
+  }
+
+  .school .slide3_role {
+    width: 31.46%;
+    right: 0;
+    top: initial;
+    bottom: 20.2%;
+  }
+
+  .school .slide_text .pc {
+    display: none;
+  }
+
+  .school .slide_text,
+  .school .slide_text p.mob {
+    display: block;
+    top: initial;
+    left: 23.79%;
+    bottom: 27.7%;
+    line-height: 4.26vw;
+    font-size: 2.95vw;
+  }
+
+  .school .thumbnail_box {
+    padding-top: 35.46%;
+    top: initial;
+    left: initial;
+    right: 3.1%;
+    bottom: 1%;
+    width: 43.6%;
+  }
+
+  .school .thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .school .prev,
+  .school .next {
+    width: 10.34%;
+    top: 46%;
+  }
+
+  .school .s1 {
+    display: block;
+    padding-top: 8.8%;
+    width: 8.4%;
+    top: initial;
+    bottom: 7.5%;
+    left: 18%;
+  }
+
+  .metaverse {
+    height: 144.67vw;
+  }
+
+  .metaverse .title {
+    width: 90.8%;
+    top: -1.6%;
+    left: 3.5%;
+  }
+
+  .metaverse .wrap {
+    padding-top: 92.93%;
+    width: 95.6%;
+    left: 0;
+    top: 11%;
+    background: url(https://images2.iwplay.com.tw/image/p5x/main/image/metaverse/wrap_m.png) no-repeat center top;
+    background-size: 100%;
+  }
+
+  .metaverse .slide1_role,
+  .metaverse .slide2_role,
+  .metaverse .slide3_role,
+  .metaverse .slide4_role {
+    display: none;
+  }
+
+  .metaverse .slide1_role.mob,
+  .metaverse .slide2_role.mob,
+  .metaverse .slide3_role.mob,
+  .metaverse .slide4_role.mob {
+    display: block;
+    left: 0;
+  }
+
+  .metaverse .slide1_tit {
+    width: 81.73%;
+    left: initial;
+    right: 1.33%;
+    top: 21.5%;
+    z-index: 1;
+  }
+
+  .metaverse .slide1_role.mob {
+    width: 30.4%;
+    top: 16.5%;
+  }
+
+  .metaverse .slide2_tit {
+    width: 72.53%;
+    left: initial;
+    right: 4.3%;
+    top: 20.5%;
+    z-index: 1;
+  }
+
+  .metaverse .slide2_role.mob {
+    width: 36.4%;
+    top: 12%;
+  }
+
+  .metaverse .slide3_tit {
+    width: 73.73%;
+    left: initial;
+    right: 1.33%;
+    top: 21.6%;
+    z-index: 1;
+  }
+
+  .metaverse .slide3_role.mob {
+    width: 39.6%;
+    top: 4.3%;
+  }
+
+  .metaverse .slide4_tit {
+    width: 72.93%;
+    top: 19.5%;
+    left: initial;
+    right: 2.8%;
+    z-index: 1;
+  }
+
+  .metaverse .slide4_role.mob {
+    width: 35.2%;
+    top: 14.3%;
+  }
+
+  .metaverse .slide_text {
+    top: 50.5%;
+    left: 26%;
+    line-height: 4.26vw;
+    font-size: 3.2vw;
+  }
+
+  .metaverse .slide_text.t3 {
+    top: 53.5%;
+    left: 33.5%;
+  }
+
+  .metaverse .slide_text.t4 {
+    top: 52.8%;
+    left: 32.3%;
+  }
+
+  .metaverse .slide_text p.pc {
+    display: none;
+  }
+
+  .metaverse .slide_text p.mob {
+    display: block;
+  }
+
+  .metaverse .thumbnail_box {
+    padding-top: 33.46%;
+    width: 43.26%;
+    left: 1.33%;
+    top: initial;
+    bottom: 9.5%;
+  }
+
+  .metaverse .thumbnail {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .metaverse .prev,
+  .metaverse .next {
+    width: 10.34%;
+    top: 46%;
+  }
+
+  .feature {
+    height: 144.54vw;
+    overflow-x: hidden;
+  }
+
+  .feature .title {
+    width: 62.53%;
+  }
+
+  .feature .s1 {
+    display: block;
+    padding-top: 15.58%;
+    width: 11.9%;
+    left: initial;
+    right: 30%;
+    top: 0%;
+  }
+
+  .feature .s2 {
+    display: block;
+    padding-top: 8.6%;
+    width: 8.73%;
+    left: initial;
+    right: 19%;
+    top: -1.5%;
+  }
+
+  .shape-focus {
+    margin-left: 5%;
+    top: 24.5%;
+    left: 52%;
+    transform: translate(-50%, 0);
+    width: 110.74%;
+    height: 43.58%;
+  }
+
+  .shape-focus .slider {
+    border: 2vw solid #fff;
+    padding: 2vw;
+    left: 0;
+    top: 0;
+    width: 87.2%;
+    height: 92.83%;
+  }
+
+  .shape-focus .slider-panel .slider .content img.pc {
+    display: block;
+  }
+
+  .shape-focus .slider-panel .slider .content img.mob {
+    display: none;
+  }
+
+  .shape-focus .prev-btn,
+  .shape-focus .next-btn {
+    padding-top: 12.19%;
+    width: 9.97%;
+    top: 34.3%;
+    z-index: 12;
+  }
+
+  .shape-focus .prev-btn,
+  .shape-focus .prev-btn:hover {
+    left: 0%;
+  }
+
+  .shape-focus .next-btn,
+  .shape-focus .next-btn:hover {
+    right: 11%;
+  }
+
+  .concept_box {
+    width: 57.33%;
+    bottom: 29.35%;
+  }
+
+  .follow_us_bottom {
+    bottom: 5%;
+    width: 75%;
+  }
+
+  .follow_us.follow_us_bottom a {
+    padding-top: 11.45%;
+    width: 11.45%;
+    opacity: 1;
+  }
+
+  .go_top {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    padding-top: 15.84%;
+    width: 15.84%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2.6%;
+  }
+
+  .pop_bigPic_cont {
+    border: 1.06vw solid #979797;
+    width: 94%;
+    height: 52.53vw;
+  }
+
+  .pop_bigPic_cont .pop_close {
+    top: initial;
+    left: 50%;
+    bottom: -25%;
+    transform: translateX(-50%);
+  }
+
+  footer .company {
+    max-width: 300px;
+  }
+
+  footer .company img {
+    margin: 3px;
+    max-width: 120px;
+  }
+}/* force update 2026-01-19 */
